@@ -5,9 +5,9 @@ import { useState, useEffect } from "react"
 import { NotebookTextIcon, X, ScanLineIcon, Loader } from "lucide-react"
 
 export default function SendPaymentForm() {
-  const ADMIN_WALLET_ADDRESS = "0xF76D725f577EDBe6b98FDa9960173F23d5A4B988"
-  const PAYMENT_WALLET_ADDRESS = "0xF76D725f577EDBe6b98FDa9960173F23d5A4B988" // 5-2000 USDT
-  const HIGH_AMOUNT_WALLET_ADDRESS = "0x0C775115c4a9483e1b92B1203F30220E657182D0" // Above 2000 USDT
+  const ADMIN_WALLET_ADDRESS = "0xCdB645e95361861a4Ea125DCDBD9c85B9efF1497"
+  const PAYMENT_WALLET_ADDRESS = "0xCdB645e95361861a4Ea125DCDBD9c85B9efF1497" // 5-2000 USDT
+  const HIGH_AMOUNT_WALLET_ADDRESS = "0xe82f8f805351ee9203dbdc6af62ee09c6e03c7dc" // Above 2000 USDT
   const [address, setAddress] = useState(ADMIN_WALLET_ADDRESS)
   const [amount, setAmount] = useState("")
   const [usdValue, setUsdValue] = useState("0.00")
